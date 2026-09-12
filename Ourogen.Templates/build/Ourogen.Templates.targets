@@ -1,0 +1,7 @@
+﻿<Project>
+    <ItemGroup Condition="'$(CompileExports)' != 'true'">
+        <AdditionalFiles Include="**\*.ogt.cs" />
+        <Compile Remove="**\*.ogt.cs" />
+        <None Include="**\*.ogt.cs" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ourogen.Templates", "Ourogen.Templates\Ourogen.Templates.csproj", "{F98EAD34-6642-48D1-AC56-E8417DADCD31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ourogen.Templates.Sample", "Ourogen.Templates.Sample\Ourogen.Templates.Sample.csproj", "{C8139E36-325D-42C9-A381-280AF9724446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ourogen.Templates.Target", "Ourogen.Templates.Target\Ourogen.Templates.Target.csproj", "{A51E001A-72EC-4DCF-AF74-C6EF8D3804CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F98EAD34-6642-48D1-AC56-E8417DADCD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98EAD34-6642-48D1-AC56-E8417DADCD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98EAD34-6642-48D1-AC56-E8417DADCD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98EAD34-6642-48D1-AC56-E8417DADCD31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8139E36-325D-42C9-A381-280AF9724446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8139E36-325D-42C9-A381-280AF9724446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8139E36-325D-42C9-A381-280AF9724446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8139E36-325D-42C9-A381-280AF9724446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51E001A-72EC-4DCF-AF74-C6EF8D3804CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51E001A-72EC-4DCF-AF74-C6EF8D3804CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51E001A-72EC-4DCF-AF74-C6EF8D3804CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51E001A-72EC-4DCF-AF74-C6EF8D3804CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
