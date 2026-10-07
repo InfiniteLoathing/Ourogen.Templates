@@ -11,13 +11,13 @@ namespace Ourogen.Templates.Sample
             context.RegisterPostInitializationOutput(ctx =>
             {
                 ctx.AddSource(
-                    $"{nameof(EmptyExampleTemplate)}.cs",
+                    "EmptyExampleTemplate.cs",
                     EmptyExampleTemplateRenderer.Render());
                 ctx.AddSource(
-                    $"{nameof(ExampleTemplate)}.cs",
+                    "ExampleTemplate.cs",
                     ExampleTemplateRenderer.Render(ExampleTemplateValues.Instance));
                 ctx.AddSource(
-                    $"{nameof(ObjectExampleTemplate)}.cs",
+                    "ObjectExampleTemplate.cs",
                     ObjectExampleTemplateRenderer.Render(ObjectExampleTemplateValues.Instance));
             });
             #endif
